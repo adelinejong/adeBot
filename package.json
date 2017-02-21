@@ -1,0 +1,17 @@
+{
+  "name": "proj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "botbuilder": "^3.6.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+        "start": "node server.js"
+    },
+   "author": "Alyssa Ong with edits by Micheleen Harris",
+  "license": "ISC"
+}
