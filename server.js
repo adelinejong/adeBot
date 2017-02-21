@@ -19,8 +19,8 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 
 // Create chat bot
 var connector = new builder.ChatConnector({
-    appId: process.env.MICROSOFT_APP_ID || 'f7008263-2172-427c-b59c-5c7da24d83e6',
-    appPassword: process.env.MICROSOFT_APP_PASSWORD || 'UZLfi3bNePRFhKPgZBgzQtB'
+    appId: process.env.MICROSOFT_APP_ID || '00ed99ee-4aa3-48f2-877f-8e02a48c4902',
+    appPassword: process.env.MICROSOFT_APP_PASSWORD || 'pxVONuPUXWwW1C2ygmOEeZ7'
 });
 var bot = new builder.UniversalBot(connector);
 // If a Post request is made to /api/messages on port 3978 of our local server, then we pass it to the bot connector to handle
